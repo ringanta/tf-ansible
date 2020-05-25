@@ -4,6 +4,7 @@ LABEL maintainer="ringanta.ginting@gmail.com"
 
 RUN apk update \
     && apk add \
+        curl \
         git \
         ansible \
         terraform \
